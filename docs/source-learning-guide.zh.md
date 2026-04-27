@@ -212,12 +212,12 @@
 - `examples/README.adoc`
 - `examples/camel-example-main/readme.adoc`
 - `examples/camel-example-spring/README.adoc`
-- `examples/camel-example-spring-boot/readme.adoc`
+- `examples/camel-example-spring-javaconfig/README.adoc`
 
 目标：
 
 - 理解 Camel 用路由连接不同端点。
-- 理解 Java DSL、XML DSL、Spring、Spring Boot、Main 的入口差异。
+- 理解 Java DSL、XML DSL、Spring、Spring Java Config、Main 的入口差异。
 - 能看懂一个简单 `from("direct:start").to("mock:result")` 路由的执行意图。
 
 ### 阶段二：阅读核心 API
@@ -304,7 +304,6 @@
 - `components/camel-test-junit5/`
 - `components/camel-test-spring/`
 - `tests/camel-itest/`
-- `tests/camel-itest-spring-boot/`
 - `tests/camel-itest-karaf/`
 - `tests/camel-jmh/`
 
@@ -327,7 +326,7 @@
 | 学习组件开发 | `docs/user-manual/modules/ROOT/pages/writing-components.adoc`、`components/camel-direct/` |
 | 学习 standalone 启动 | `core/camel-main/`、`examples/camel-example-main/` |
 | 学习 Spring 集成 | `components/camel-spring/`、`examples/camel-example-spring/` |
-| 学习 Spring Boot 示例 | `examples/camel-example-spring-boot/` |
+| 学习 Spring Java Config 示例 | `examples/camel-example-spring-javaconfig/` |
 | 查构建与依赖版本 | `parent/pom.xml`、当前模块 `pom.xml` |
 | 查组件文档 | `components/<component>/src/main/docs/` |
 
