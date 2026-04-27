@@ -380,7 +380,7 @@ components/camel-xxx/
 2. `components/camel-direct/src/main/java/org/apache/camel/component/direct/DirectEndpoint.java`
 3. `components/camel-direct/src/main/java/org/apache/camel/component/direct/DirectProducer.java`
 4. `components/camel-direct/src/main/java/org/apache/camel/component/direct/DirectConsumer.java`
-5. `components/camel-direct/src/test/java/`
+5. `core/camel-core/src/test/java/org/apache/camel/component/direct/`
 
 验收标准：能解释 `direct:name` 为什么只能在同一个 CamelContext 内同步调用，以及无 consumer 时如何处理。
 
